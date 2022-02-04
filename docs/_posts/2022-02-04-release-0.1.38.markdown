@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Release 0.1.38"
+date:   2022-02-04 14:31:40 +0100
+categories: jekyll update
+---
+In FeatureReader - "Max Features to Read" is only communicated to the reader when "Feature Types to Read" is not set.
+
+It looks like there is some mechanism to communicate "Max Features to Read" using setConstraints but the [documentation][safe-docs-set-constraints] states regarding `fme_search_type` `fme_specified_feature_range`:
+
+> _Implemented entirely by the Universal Reader, and will never be passed to an IFMEReader._
+
+[safe-docs-set-constraints]: https://docs.safe.com/fme/html/FME_setConstraints/index.html
+
