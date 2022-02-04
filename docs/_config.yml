@@ -30,7 +30,7 @@ twitter_username: eea
 github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
