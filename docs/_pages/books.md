@@ -17,3 +17,5 @@ Variables:
 `helpurl`: {{ booksurl | append: '/help/index.html' }}
 
 `helpurl2`: {{ site.baseurl | append: '/assets/documentation/help/index.html' }}
+
+[Help]({{ site.baseurl }}{% link /assets/documentation/help/index.html %})
