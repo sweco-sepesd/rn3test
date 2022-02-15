@@ -20,3 +20,5 @@ Variables:
 
 [B]({% link assets/documentation/help/index.html %})
 
+[B]({% link {{ site.baseurl }}/assets/documentation/help/index.html %})
+
