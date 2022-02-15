@@ -11,6 +11,7 @@ Variables:
 
 {{ site.url }}/assets/documentation/help/index.html
 
+{{ base_url }}
 
 
 [A]({% link /assets/documentation/help/index.html %})
