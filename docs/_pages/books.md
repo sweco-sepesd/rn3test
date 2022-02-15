@@ -20,4 +20,3 @@ Variables:
 
 [B]({% link assets/documentation/help/index.html %})
 
-[C]({% link {{ assets/documentation/help/index.html | prepend:site.baseurl }} %})
