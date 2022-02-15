@@ -5,4 +5,4 @@ title: Books
 ---
 
 
-[Help]({% link /assets/documentation/help/index.html %})
+[Help]({% link assets/documentation/help/index.html %})
