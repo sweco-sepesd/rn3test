@@ -8,19 +8,18 @@ Variables:
 
 `site.url`: {{ site.url }}
 
-{{ site.url }}/assets/documentation/help/index.html
-
-`base_url`: {{ base_url }}
-
 `site.baseurl`: {{ site.baseurl }}
 
-`test`: {{ '/assets/documentation/help/index.html' | prepend: site.baseurl }}
+{% assign favorite_food = "pizza" %}
+{% assign age = 35 %}
 
-`test2`: {{ site.baseurl | append '/assets/documentation/help/index.html' }}
+{% capture about_me %}
+I am {{ age }} and my favorite food is {{ favorite_food }}.
+{% endcapture %}
 
-[A]({% link /assets/documentation/help/index.html %})
+{{ about_me }}
 
-[B]({% link assets/documentation/help/index.html %})
+
 
 
 
