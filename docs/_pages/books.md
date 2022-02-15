@@ -2,17 +2,16 @@
 permalink: /books
 layout: page
 title: Books
-books_base: {{ site.baseurl }}/assets/documentation
+
 ---
 
 Variables:
 
-{{ site.baseurl }}
+{{ site.url }}
 
-{{ books_base }}
+{{ site.url }}/assets/documentation/help/index.html
 
 
 
 [A]({% link /assets/documentation/help/index.html %})
 [B]({% link assets/documentation/help/index.html %})
-[C]({% link {{ books_base }}/help/index.html %})
