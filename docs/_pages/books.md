@@ -15,10 +15,10 @@ Variables:
 
 `site.baseurl`: {{ site.baseurl }}
 
+`test`: {{ assets/documentation/assets/documentation/help/index.html | prepend: site.baseurl }}
 
 [A]({% link /assets/documentation/help/index.html %})
 
 [B]({% link assets/documentation/help/index.html %})
 
-[B]({% link {{ site.baseurl }}/assets/documentation/help/index.html %})
 
