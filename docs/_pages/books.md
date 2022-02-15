@@ -10,19 +10,10 @@ Variables:
 
 `site.baseurl`: {{ site.baseurl }}
 
-{% assign favorite_food = "pizza" %}
-{% assign age = 35 %}
+{% capture booksurl %}{{ site.url | append: site.baseurl }}/assets/documentation{% endcapture %}
 
-{% capture about_me %}
-I am {{ age }} and my favorite food is {{ favorite_food }}.
-{% endcapture %}
+`booksurl`: {{ booksurl }}
 
-{{ about_me }}
+`helpurl`: {{ booksurl | append: '/help/index.html' }}
 
-
-
-
-
-
-
-
+`helpurl2`: {{ site.baseurl | append: '/assets/documentation/help/index.html' }}
